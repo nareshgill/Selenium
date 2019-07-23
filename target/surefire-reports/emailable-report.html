@@ -31,131 +31,14 @@ div.shootout {padding:2em;border:3px #4854A8 solid}
 <body>
 <table cellspacing="0" cellpadding="0" class="result">
 <tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
-<tr><td style="text-align:left;padding-right:2em">Surefire test</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">0</td><td class="numi">53.4 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Surefire test</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">18.4 seconds</td><td class="numi"></td><td class="numi"></td></tr>
 </table>
 <table cellspacing="0" cellpadding="0" class="passed" id="summary">
 <tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
-<tr><th colspan="4">Surefire test &#8212; failed (configuration methods)</th></tr>
-<tr class="failedodd"><td rowspan="1">testng.NewTest</td><td><a href="#m1"><b>beforeTest</b>  </a></td><td class="numi">1</td><td>1563902203985</td><td class="numi">0</td></tr>
-<tr><th colspan="4">Surefire test &#8212; skipped (configuration methods)</th></tr>
-<tr class="skippedodd"><td rowspan="1">testng.NewTest</td><td><a href="#m2"><b>afterTest</b>  </a></td><td class="numi">1</td><td>1563902257421</td><td class="numi">0</td></tr>
-<tr><th colspan="4">Surefire test &#8212; skipped</th></tr>
-<tr class="skippedodd"><td rowspan="1">testng.NewTest</td><td><a href="#m3"><b>testEasy</b>  </a></td><td class="numi">1</td><td>1563902257418</td><td class="numi">2</td></tr>
+<tr><th colspan="4">Surefire test &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">testng.NewTest</td><td><a href="#m1"><b>testEasy</b>  </a></td><td class="numi">1</td><td>1563905281370</td><td class="numi">6525</td></tr>
 </table>
 <h1>Surefire test</h1>
-<h2 id="m1">testng.NewTest:beforeTest</h2>
-<div style="padding-left:3em">
-<p>Failed to connect to binary FirefoxBinary(C:\Program Files\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
-[[]],&quot;onMessage&quot;:[[]]}}}}},&quot;staged&quot;:{},&quot;path&quot;:&quot;C:\\Program Files\\Mozilla Firefox\\browser\\features&quot;}}
-1563902211552	addons.xpi	DEBUG	Ignoring file: name is not a valid add-on ID: C:\Users\abhchauh0\AppData\Local\Temp\anonymous2892427950168710642webdriver-profile\extensions\webdriver-staging
-1563902211554	addons.xpi	DEBUG	Existing add-on formautofill@mozilla.org in app-system-defaults
-1563902211554	addons.xpi	DEBUG	Existing add-on fxmonitor@mozilla.org in app-system-defaults
-1563902211555	addons.xpi	DEBUG	Existing add-on screenshots@mozilla.org in app-system-defaults
-1563902211555	addons.xpi	DEBUG	Existing add-on webcompat-reporter@mozilla.org in app-system-defaults
-1563902211556	addons.xpi	DEBUG	Existing add-on webcompat@mozilla.org in app-system-defaults
-1563902211557	addons.xpi	DEBUG	scanForChanges changed: false, state: {}
-1563902211558	addons.xpi	DEBUG	No changes found
-1563902211567	addons.xpi	DEBUG	Loading bootstrap scope from jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/formautofill@mozilla.org.xpi!/
-1563902211583	addons.xpi	DEBUG	Calling bootstrap method startup on formautofill@mozilla.org version 1.0
-1563902211586	addons.xpi	DEBUG	Loading bootstrap scope from jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/fxmonitor@mozilla.org.xpi!/
-1563902211586	addons.xpi	DEBUG	Calling bootstrap method startup on fxmonitor@mozilla.org version 3.0
-1563902211587	addons.xpi	DEBUG	Loading bootstrap scope from jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/screenshots@mozilla.org.xpi!/
-1563902211587	addons.xpi	DEBUG	Calling bootstrap method startup on screenshots@mozilla.org version 37.1.0
-1563902211588	addons.xpi	DEBUG	Loading bootstrap scope from jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/webcompat@mozilla.org.xpi!/
-1563902211588	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 4.0.0
-1563902211591	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
-1563902211591	addons.manager	DEBUG	Provider finished startup: XPIProvider
-1563902211591	addons.manager	DEBUG	Starting provider: LightweightThemeManager
-1563902211591	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
-1563902211591	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
-1563902211592	addons.manager	DEBUG	Starting provider: GMPProvider
-1563902211596	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
-1563902211596	addons.manager	DEBUG	Provider finished startup: GMPProvider
-1563902211596	addons.manager	DEBUG	Starting provider: PluginProvider
-1563902211596	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
-1563902211596	addons.manager	DEBUG	Provider finished startup: PluginProvider
-1563902211609	addons.manager	DEBUG	Completed startup sequence
-*** Blocklist::_loadFileInternal: blocklist is disabled
-1563902213449	addons.xpi-utils	DEBUG	Starting async load of XPI database C:\Users\abhchauh0\AppData\Local\Temp\anonymous2892427950168710642webdriver-profile\extensions.json
-1563902213498	addons.xpi	DEBUG	Ignoring file: name is not a valid add-on ID: C:\Users\abhchauh0\AppData\Local\Temp\anonymous2892427950168710642webdriver-profile\extensions\webdriver-staging
-1563902213500	addons.xpi	DEBUG	Existing add-on formautofill@mozilla.org in app-system-defaults
-1563902213501	addons.xpi	DEBUG	Existing add-on fxmonitor@mozilla.org in app-system-defaults
-1563902213501	addons.xpi	DEBUG	Existing add-on screenshots@mozilla.org in app-system-defaults
-1563902213501	addons.xpi	DEBUG	Existing add-on webcompat-reporter@mozilla.org in app-system-defaults
-1563902213501	addons.xpi	DEBUG	Existing add-on webcompat@mozilla.org in app-system-defaults
-1563902213502	addons.xpi	DEBUG	scanForChanges changed: false, state: {}
-1563902213709	addons.xpi-utils	DEBUG	Finished async read of XPI database, parsing...
-1563902214021	addons.xpi-utils	DEBUG	Successfully read XPI database
-1563902214631	addons.manager	DEBUG	Registering upgrade listener for formautofill@mozilla.org
-
-Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
-System info: host: &apos;WKWIN3778446&apos;, ip: &apos;10.0.75.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
-Driver info: driver.version: FirefoxDriver</p>
-org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:130)
-<br/>at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:246)
-<br/>at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:114)
-<br/>at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:191)
-<br/>at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:186)
-<br/>at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:182)
-<br/>at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:95)
-<br/>at testng.NewTest.beforeTest(NewTest.java:19)
-<br/>28 lines not shown
-<p>Caused by Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
-[[]],&quot;onMessage&quot;:[[]]}}}}},&quot;staged&quot;:{},&quot;path&quot;:&quot;C:\\Program Files\\Mozilla Firefox\\browser\\features&quot;}}
-1563902211552	addons.xpi	DEBUG	Ignoring file: name is not a valid add-on ID: C:\Users\abhchauh0\AppData\Local\Temp\anonymous2892427950168710642webdriver-profile\extensions\webdriver-staging
-1563902211554	addons.xpi	DEBUG	Existing add-on formautofill@mozilla.org in app-system-defaults
-1563902211554	addons.xpi	DEBUG	Existing add-on fxmonitor@mozilla.org in app-system-defaults
-1563902211555	addons.xpi	DEBUG	Existing add-on screenshots@mozilla.org in app-system-defaults
-1563902211555	addons.xpi	DEBUG	Existing add-on webcompat-reporter@mozilla.org in app-system-defaults
-1563902211556	addons.xpi	DEBUG	Existing add-on webcompat@mozilla.org in app-system-defaults
-1563902211557	addons.xpi	DEBUG	scanForChanges changed: false, state: {}
-1563902211558	addons.xpi	DEBUG	No changes found
-1563902211567	addons.xpi	DEBUG	Loading bootstrap scope from jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/formautofill@mozilla.org.xpi!/
-1563902211583	addons.xpi	DEBUG	Calling bootstrap method startup on formautofill@mozilla.org version 1.0
-1563902211586	addons.xpi	DEBUG	Loading bootstrap scope from jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/fxmonitor@mozilla.org.xpi!/
-1563902211586	addons.xpi	DEBUG	Calling bootstrap method startup on fxmonitor@mozilla.org version 3.0
-1563902211587	addons.xpi	DEBUG	Loading bootstrap scope from jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/screenshots@mozilla.org.xpi!/
-1563902211587	addons.xpi	DEBUG	Calling bootstrap method startup on screenshots@mozilla.org version 37.1.0
-1563902211588	addons.xpi	DEBUG	Loading bootstrap scope from jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/webcompat@mozilla.org.xpi!/
-1563902211588	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 4.0.0
-1563902211591	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
-1563902211591	addons.manager	DEBUG	Provider finished startup: XPIProvider
-1563902211591	addons.manager	DEBUG	Starting provider: LightweightThemeManager
-1563902211591	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
-1563902211591	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
-1563902211592	addons.manager	DEBUG	Starting provider: GMPProvider
-1563902211596	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
-1563902211596	addons.manager	DEBUG	Provider finished startup: GMPProvider
-1563902211596	addons.manager	DEBUG	Starting provider: PluginProvider
-1563902211596	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
-1563902211596	addons.manager	DEBUG	Provider finished startup: PluginProvider
-1563902211609	addons.manager	DEBUG	Completed startup sequence
-*** Blocklist::_loadFileInternal: blocklist is disabled
-1563902213449	addons.xpi-utils	DEBUG	Starting async load of XPI database C:\Users\abhchauh0\AppData\Local\Temp\anonymous2892427950168710642webdriver-profile\extensions.json
-1563902213498	addons.xpi	DEBUG	Ignoring file: name is not a valid add-on ID: C:\Users\abhchauh0\AppData\Local\Temp\anonymous2892427950168710642webdriver-profile\extensions\webdriver-staging
-1563902213500	addons.xpi	DEBUG	Existing add-on formautofill@mozilla.org in app-system-defaults
-1563902213501	addons.xpi	DEBUG	Existing add-on fxmonitor@mozilla.org in app-system-defaults
-1563902213501	addons.xpi	DEBUG	Existing add-on screenshots@mozilla.org in app-system-defaults
-1563902213501	addons.xpi	DEBUG	Existing add-on webcompat-reporter@mozilla.org in app-system-defaults
-1563902213501	addons.xpi	DEBUG	Existing add-on webcompat@mozilla.org in app-system-defaults
-1563902213502	addons.xpi	DEBUG	scanForChanges changed: false, state: {}
-1563902213709	addons.xpi-utils	DEBUG	Finished async read of XPI database, parsing...
-1563902214021	addons.xpi-utils	DEBUG	Successfully read XPI database
-1563902214631	addons.manager	DEBUG	Registering upgrade listener for formautofill@mozilla.org
-</p>
-org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:118)
-<br/>at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:246)
-<br/>at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:114)
-<br/>at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:191)
-<br/>at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:186)
-<br/>at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:182)
-<br/>at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:95)
-<br/>at testng.NewTest.beforeTest(NewTest.java:19)
-<br/>28 lines not shown
-</div>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m2">testng.NewTest:afterTest</h2>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m3">testng.NewTest:testEasy</h2>
+<h2 id="m1">testng.NewTest:testEasy</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
 </body></html>

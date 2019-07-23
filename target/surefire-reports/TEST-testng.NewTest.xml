@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="testng.NewTest" time="55.594" tests="3" errors="0" skipped="2" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="testng.NewTest" time="19.032" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -7,7 +7,7 @@
     <property name="java.specification.version" value="1.8"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\abhchauh0\Documents\GitHub\jenkins-with-selenium\target\test-classes;C:\Users\abhchauh0\Documents\GitHub\jenkins-with-selenium\target\classes;C:\Users\abhchauh0\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\abhchauh0\.m2\repository\org\seleniumhq\selenium\selenium-java\2.45.0\selenium-java-2.45.0.jar;C:\Users\abhchauh0\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\2.45.0\selenium-chrome-driver-2.45.0.jar;C:\Users\abhchauh0\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\2.45.0\selenium-remote-driver-2.45.0.jar;C:\Users\abhchauh0\.m2\repository\cglib\cglib-nodep\2.1_3\cglib-nodep-2.1_3.jar;C:\Users\abhchauh0\.m2\repository\com\google\code\gson\gson\2.3.1\gson-2.3.1.jar;C:\Users\abhchauh0\.m2\repository\org\seleniumhq\selenium\selenium-api\2.45.0\selenium-api-2.45.0.jar;C:\Users\abhchauh0\.m2\repository\com\google\guava\guava\18.0\guava-18.0.jar;C:\Users\abhchauh0\.m2\repository\org\seleniumhq\selenium\selenium-htmlunit-driver\2.45.0\selenium-htmlunit-driver-2.45.0.jar;C:\Users\abhchauh0\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.15\htmlunit-2.15.jar;C:\Users\abhchauh0\.m2\repository\xalan\xalan\2.7.1\xalan-2.7.1.jar;C:\Users\abhchauh0\.m2\repository\xalan\serializer\2.7.1\serializer-2.7.1.jar;C:\Users\abhchauh0\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;C:\Users\abhchauh0\.m2\repository\org\apache\commons\commons-lang3\3.3.2\commons-lang3-3.3.2.jar;C:\Users\abhchauh0\.m2\repository\org\apache\httpcomponents\httpmime\4.3.3\httpmime-4.3.3.jar;C:\Users\abhchauh0\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\abhchauh0\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.15\htmlunit-core-js-2.15.jar;C:\Users\abhchauh0\.m2\repository\xerces\xercesImpl\2.11.0\xercesImpl-2.11.0.jar;C:\Users\abhchauh0\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\abhchauh0\.m2\repository\net\sourceforge\nekohtml\nekohtml\1.9.21\nekohtml-1.9.21.jar;C:\Users\abhchauh0\.m2\repository\net\sourceforge\cssparser\cssparser\0.9.14\cssparser-0.9.14.jar;C:\Users\abhchauh0\.m2\repository\org\w3c\css\sac\1.3\sac-1.3.jar;C:\Users\abhchauh0\.m2\repository\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;C:\Users\abhchauh0\.m2\repository\org\eclipse\jetty\jetty-websocket\8.1.15.v20140411\jetty-websocket-8.1.15.v20140411.jar;C:\Users\abhchauh0\.m2\repository\org\eclipse\jetty\jetty-util\8.1.15.v20140411\jetty-util-8.1.15.v20140411.jar;C:\Users\abhchauh0\.m2\repository\org\eclipse\jetty\jetty-io\8.1.15.v20140411\jetty-io-8.1.15.v20140411.jar;C:\Users\abhchauh0\.m2\repository\org\eclipse\jetty\jetty-http\8.1.15.v20140411\jetty-http-8.1.15.v20140411.jar;C:\Users\abhchauh0\.m2\repository\org\apache\httpcomponents\httpclient\4.3.6\httpclient-4.3.6.jar;C:\Users\abhchauh0\.m2\repository\org\apache\httpcomponents\httpcore\4.3.3\httpcore-4.3.3.jar;C:\Users\abhchauh0\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\2.45.0\selenium-firefox-driver-2.45.0.jar;C:\Users\abhchauh0\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;C:\Users\abhchauh0\.m2\repository\org\apache\commons\commons-exec\1.1\commons-exec-1.1.jar;C:\Users\abhchauh0\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\2.45.0\selenium-ie-driver-2.45.0.jar;C:\Users\abhchauh0\.m2\repository\net\java\dev\jna\jna\3.4.0\jna-3.4.0.jar;C:\Users\abhchauh0\.m2\repository\net\java\dev\jna\platform\3.4.0\platform-3.4.0.jar;C:\Users\abhchauh0\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\2.45.0\selenium-safari-driver-2.45.0.jar;C:\Users\abhchauh0\.m2\repository\org\seleniumhq\selenium\selenium-support\2.45.0\selenium-support-2.45.0.jar;C:\Users\abhchauh0\.m2\repository\org\webbitserver\webbit\0.4.14\webbit-0.4.14.jar;C:\Users\abhchauh0\.m2\repository\io\netty\netty\3.5.2.Final\netty-3.5.2.Final.jar;C:\Users\abhchauh0\.m2\repository\org\seleniumhq\selenium\selenium-leg-rc\2.45.0\selenium-leg-rc-2.45.0.jar;C:\Users\abhchauh0\.m2\repository\org\testng\testng\6.8\testng-6.8.jar;C:\Users\abhchauh0\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\abhchauh0\.m2\repository\com\beust\jcommander\1.27\jcommander-1.27.jar;C:\Users\abhchauh0\.m2\repository\org\yaml\snakeyaml\1.6\snakeyaml-1.6.jar;"/>
+    <property name="java.class.path" value="C:\Users\abhchauh0\Documents\GitHub\jenkins-with-selenium\target\test-classes;C:\Users\abhchauh0\Documents\GitHub\jenkins-with-selenium\target\classes;C:\Users\abhchauh0\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\abhchauh0\.m2\repository\org\seleniumhq\selenium\selenium-java\3.14.0\selenium-java-3.14.0.jar;C:\Users\abhchauh0\.m2\repository\org\seleniumhq\selenium\selenium-api\3.14.0\selenium-api-3.14.0.jar;C:\Users\abhchauh0\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.14.0\selenium-chrome-driver-3.14.0.jar;C:\Users\abhchauh0\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.14.0\selenium-edge-driver-3.14.0.jar;C:\Users\abhchauh0\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.14.0\selenium-firefox-driver-3.14.0.jar;C:\Users\abhchauh0\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.14.0\selenium-ie-driver-3.14.0.jar;C:\Users\abhchauh0\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.14.0\selenium-opera-driver-3.14.0.jar;C:\Users\abhchauh0\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.14.0\selenium-remote-driver-3.14.0.jar;C:\Users\abhchauh0\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.14.0\selenium-safari-driver-3.14.0.jar;C:\Users\abhchauh0\.m2\repository\org\seleniumhq\selenium\selenium-support\3.14.0\selenium-support-3.14.0.jar;C:\Users\abhchauh0\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\abhchauh0\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\abhchauh0\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\abhchauh0\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\abhchauh0\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\abhchauh0\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\abhchauh0\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\abhchauh0\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\abhchauh0\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\abhchauh0\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\abhchauh0\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar;C:\Users\abhchauh0\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;C:\Users\abhchauh0\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar;C:\Users\abhchauh0\.m2\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar;C:\Users\abhchauh0\.m2\repository\org\testng\testng\6.8\testng-6.8.jar;C:\Users\abhchauh0\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\abhchauh0\.m2\repository\com\beust\jcommander\1.27\jcommander-1.27.jar;C:\Users\abhchauh0\.m2\repository\org\yaml\snakeyaml\1.6\snakeyaml-1.6.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -18,8 +18,8 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\abhchauh0\AppData\Local\Temp\surefire5248349036376586007\surefirebooter2040584473139224570.jar C:\Users\abhchauh0\AppData\Local\Temp\surefire5248349036376586007 2019-07-23T22-46-41_720-jvmRun1 surefire3715322941115195970tmp surefire_04605698721467833775tmp"/>
-    <property name="surefire.test.class.path" value="C:\Users\abhchauh0\Documents\GitHub\jenkins-with-selenium\target\test-classes;C:\Users\abhchauh0\Documents\GitHub\jenkins-with-selenium\target\classes;C:\Users\abhchauh0\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\abhchauh0\.m2\repository\org\seleniumhq\selenium\selenium-java\2.45.0\selenium-java-2.45.0.jar;C:\Users\abhchauh0\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\2.45.0\selenium-chrome-driver-2.45.0.jar;C:\Users\abhchauh0\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\2.45.0\selenium-remote-driver-2.45.0.jar;C:\Users\abhchauh0\.m2\repository\cglib\cglib-nodep\2.1_3\cglib-nodep-2.1_3.jar;C:\Users\abhchauh0\.m2\repository\com\google\code\gson\gson\2.3.1\gson-2.3.1.jar;C:\Users\abhchauh0\.m2\repository\org\seleniumhq\selenium\selenium-api\2.45.0\selenium-api-2.45.0.jar;C:\Users\abhchauh0\.m2\repository\com\google\guava\guava\18.0\guava-18.0.jar;C:\Users\abhchauh0\.m2\repository\org\seleniumhq\selenium\selenium-htmlunit-driver\2.45.0\selenium-htmlunit-driver-2.45.0.jar;C:\Users\abhchauh0\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.15\htmlunit-2.15.jar;C:\Users\abhchauh0\.m2\repository\xalan\xalan\2.7.1\xalan-2.7.1.jar;C:\Users\abhchauh0\.m2\repository\xalan\serializer\2.7.1\serializer-2.7.1.jar;C:\Users\abhchauh0\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;C:\Users\abhchauh0\.m2\repository\org\apache\commons\commons-lang3\3.3.2\commons-lang3-3.3.2.jar;C:\Users\abhchauh0\.m2\repository\org\apache\httpcomponents\httpmime\4.3.3\httpmime-4.3.3.jar;C:\Users\abhchauh0\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\abhchauh0\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.15\htmlunit-core-js-2.15.jar;C:\Users\abhchauh0\.m2\repository\xerces\xercesImpl\2.11.0\xercesImpl-2.11.0.jar;C:\Users\abhchauh0\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\abhchauh0\.m2\repository\net\sourceforge\nekohtml\nekohtml\1.9.21\nekohtml-1.9.21.jar;C:\Users\abhchauh0\.m2\repository\net\sourceforge\cssparser\cssparser\0.9.14\cssparser-0.9.14.jar;C:\Users\abhchauh0\.m2\repository\org\w3c\css\sac\1.3\sac-1.3.jar;C:\Users\abhchauh0\.m2\repository\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;C:\Users\abhchauh0\.m2\repository\org\eclipse\jetty\jetty-websocket\8.1.15.v20140411\jetty-websocket-8.1.15.v20140411.jar;C:\Users\abhchauh0\.m2\repository\org\eclipse\jetty\jetty-util\8.1.15.v20140411\jetty-util-8.1.15.v20140411.jar;C:\Users\abhchauh0\.m2\repository\org\eclipse\jetty\jetty-io\8.1.15.v20140411\jetty-io-8.1.15.v20140411.jar;C:\Users\abhchauh0\.m2\repository\org\eclipse\jetty\jetty-http\8.1.15.v20140411\jetty-http-8.1.15.v20140411.jar;C:\Users\abhchauh0\.m2\repository\org\apache\httpcomponents\httpclient\4.3.6\httpclient-4.3.6.jar;C:\Users\abhchauh0\.m2\repository\org\apache\httpcomponents\httpcore\4.3.3\httpcore-4.3.3.jar;C:\Users\abhchauh0\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\2.45.0\selenium-firefox-driver-2.45.0.jar;C:\Users\abhchauh0\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;C:\Users\abhchauh0\.m2\repository\org\apache\commons\commons-exec\1.1\commons-exec-1.1.jar;C:\Users\abhchauh0\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\2.45.0\selenium-ie-driver-2.45.0.jar;C:\Users\abhchauh0\.m2\repository\net\java\dev\jna\jna\3.4.0\jna-3.4.0.jar;C:\Users\abhchauh0\.m2\repository\net\java\dev\jna\platform\3.4.0\platform-3.4.0.jar;C:\Users\abhchauh0\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\2.45.0\selenium-safari-driver-2.45.0.jar;C:\Users\abhchauh0\.m2\repository\org\seleniumhq\selenium\selenium-support\2.45.0\selenium-support-2.45.0.jar;C:\Users\abhchauh0\.m2\repository\org\webbitserver\webbit\0.4.14\webbit-0.4.14.jar;C:\Users\abhchauh0\.m2\repository\io\netty\netty\3.5.2.Final\netty-3.5.2.Final.jar;C:\Users\abhchauh0\.m2\repository\org\seleniumhq\selenium\selenium-leg-rc\2.45.0\selenium-leg-rc-2.45.0.jar;C:\Users\abhchauh0\.m2\repository\org\testng\testng\6.8\testng-6.8.jar;C:\Users\abhchauh0\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\abhchauh0\.m2\repository\com\beust\jcommander\1.27\jcommander-1.27.jar;C:\Users\abhchauh0\.m2\repository\org\yaml\snakeyaml\1.6\snakeyaml-1.6.jar;"/>
+    <property name="sun.java.command" value="C:\Users\abhchauh0\AppData\Local\Temp\surefire9138094771311694902\surefirebooter7412113584320600004.jar C:\Users\abhchauh0\AppData\Local\Temp\surefire9138094771311694902 2019-07-23T23-37-52_187-jvmRun1 surefire6475170685108480658tmp surefire_06306531447412946075tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\abhchauh0\Documents\GitHub\jenkins-with-selenium\target\test-classes;C:\Users\abhchauh0\Documents\GitHub\jenkins-with-selenium\target\classes;C:\Users\abhchauh0\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\abhchauh0\.m2\repository\org\seleniumhq\selenium\selenium-java\3.14.0\selenium-java-3.14.0.jar;C:\Users\abhchauh0\.m2\repository\org\seleniumhq\selenium\selenium-api\3.14.0\selenium-api-3.14.0.jar;C:\Users\abhchauh0\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.14.0\selenium-chrome-driver-3.14.0.jar;C:\Users\abhchauh0\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.14.0\selenium-edge-driver-3.14.0.jar;C:\Users\abhchauh0\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.14.0\selenium-firefox-driver-3.14.0.jar;C:\Users\abhchauh0\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.14.0\selenium-ie-driver-3.14.0.jar;C:\Users\abhchauh0\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.14.0\selenium-opera-driver-3.14.0.jar;C:\Users\abhchauh0\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.14.0\selenium-remote-driver-3.14.0.jar;C:\Users\abhchauh0\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.14.0\selenium-safari-driver-3.14.0.jar;C:\Users\abhchauh0\.m2\repository\org\seleniumhq\selenium\selenium-support\3.14.0\selenium-support-3.14.0.jar;C:\Users\abhchauh0\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\abhchauh0\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\abhchauh0\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\abhchauh0\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\abhchauh0\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\abhchauh0\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\abhchauh0\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\abhchauh0\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\abhchauh0\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\abhchauh0\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\abhchauh0\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar;C:\Users\abhchauh0\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;C:\Users\abhchauh0\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar;C:\Users\abhchauh0\.m2\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar;C:\Users\abhchauh0\.m2\repository\org\testng\testng\6.8\testng-6.8.jar;C:\Users\abhchauh0\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\abhchauh0\.m2\repository\com\beust\jcommander\1.27\jcommander-1.27.jar;C:\Users\abhchauh0\.m2\repository\org\yaml\snakeyaml\1.6\snakeyaml-1.6.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\abhchauh0"/>
     <property name="user.language" value="en"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\abhchauh0\AppData\Local\Temp\surefire5248349036376586007\surefirebooter2040584473139224570.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\abhchauh0\AppData\Local\Temp\surefire9138094771311694902\surefirebooter7412113584320600004.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_181\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -60,185 +60,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="beforeTest" classname="testng.NewTest" time="55.593">
-    <failure message="Failed to connect to binary FirefoxBinary(C:\Program Files\Mozilla Firefox\firefox.exe) on port 7055; process output follows: &#10;[[]],&quot;onMessage&quot;:[[]]}}}}},&quot;staged&quot;:{},&quot;path&quot;:&quot;C:\\Program Files\\Mozilla Firefox\\browser\\features&quot;}}&#10;1563902211552	addons.xpi	DEBUG	Ignoring file: name is not a valid add-on ID: C:\Users\abhchauh0\AppData\Local\Temp\anonymous2892427950168710642webdriver-profile\extensions\webdriver-staging&#10;1563902211554	addons.xpi	DEBUG	Existing add-on formautofill@mozilla.org in app-system-defaults&#10;1563902211554	addons.xpi	DEBUG	Existing add-on fxmonitor@mozilla.org in app-system-defaults&#10;1563902211555	addons.xpi	DEBUG	Existing add-on screenshots@mozilla.org in app-system-defaults&#10;1563902211555	addons.xpi	DEBUG	Existing add-on webcompat-reporter@mozilla.org in app-system-defaults&#10;1563902211556	addons.xpi	DEBUG	Existing add-on webcompat@mozilla.org in app-system-defaults&#10;1563902211557	addons.xpi	DEBUG	scanForChanges changed: false, state: {}&#10;1563902211558	addons.xpi	DEBUG	No changes found&#10;1563902211567	addons.xpi	DEBUG	Loading bootstrap scope from jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/formautofill@mozilla.org.xpi!/&#10;1563902211583	addons.xpi	DEBUG	Calling bootstrap method startup on formautofill@mozilla.org version 1.0&#10;1563902211586	addons.xpi	DEBUG	Loading bootstrap scope from jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/fxmonitor@mozilla.org.xpi!/&#10;1563902211586	addons.xpi	DEBUG	Calling bootstrap method startup on fxmonitor@mozilla.org version 3.0&#10;1563902211587	addons.xpi	DEBUG	Loading bootstrap scope from jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/screenshots@mozilla.org.xpi!/&#10;1563902211587	addons.xpi	DEBUG	Calling bootstrap method startup on screenshots@mozilla.org version 37.1.0&#10;1563902211588	addons.xpi	DEBUG	Loading bootstrap scope from jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/webcompat@mozilla.org.xpi!/&#10;1563902211588	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 4.0.0&#10;1563902211591	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider&#10;1563902211591	addons.manager	DEBUG	Provider finished startup: XPIProvider&#10;1563902211591	addons.manager	DEBUG	Starting provider: LightweightThemeManager&#10;1563902211591	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager&#10;1563902211591	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager&#10;1563902211592	addons.manager	DEBUG	Starting provider: GMPProvider&#10;1563902211596	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider&#10;1563902211596	addons.manager	DEBUG	Provider finished startup: GMPProvider&#10;1563902211596	addons.manager	DEBUG	Starting provider: PluginProvider&#10;1563902211596	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider&#10;1563902211596	addons.manager	DEBUG	Provider finished startup: PluginProvider&#10;1563902211609	addons.manager	DEBUG	Completed startup sequence&#10;*** Blocklist::_loadFileInternal: blocklist is disabled&#10;1563902213449	addons.xpi-utils	DEBUG	Starting async load of XPI database C:\Users\abhchauh0\AppData\Local\Temp\anonymous2892427950168710642webdriver-profile\extensions.json&#10;1563902213498	addons.xpi	DEBUG	Ignoring file: name is not a valid add-on ID: C:\Users\abhchauh0\AppData\Local\Temp\anonymous2892427950168710642webdriver-profile\extensions\webdriver-staging&#10;1563902213500	addons.xpi	DEBUG	Existing add-on formautofill@mozilla.org in app-system-defaults&#10;1563902213501	addons.xpi	DEBUG	Existing add-on fxmonitor@mozilla.org in app-system-defaults&#10;1563902213501	addons.xpi	DEBUG	Existing add-on screenshots@mozilla.org in app-system-defaults&#10;1563902213501	addons.xpi	DEBUG	Existing add-on webcompat-reporter@mozilla.org in app-system-defaults&#10;1563902213501	addons.xpi	DEBUG	Existing add-on webcompat@mozilla.org in app-system-defaults&#10;1563902213502	addons.xpi	DEBUG	scanForChanges changed: false, state: {}&#10;1563902213709	addons.xpi-utils	DEBUG	Finished async read of XPI database, parsing...&#10;1563902214021	addons.xpi-utils	DEBUG	Successfully read XPI database&#10;1563902214631	addons.manager	DEBUG	Registering upgrade listener for formautofill@mozilla.org&#10;&#10;Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;&#10;System info: host: &apos;WKWIN3778446&apos;, ip: &apos;10.0.75.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;&#10;Driver info: driver.version: FirefoxDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
-Failed to connect to binary FirefoxBinary(C:\Program Files\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
-[[]],"onMessage":[[]]}}}}},"staged":{},"path":"C:\\Program Files\\Mozilla Firefox\\browser\\features"}}
-1563902211552	addons.xpi	DEBUG	Ignoring file: name is not a valid add-on ID: C:\Users\abhchauh0\AppData\Local\Temp\anonymous2892427950168710642webdriver-profile\extensions\webdriver-staging
-1563902211554	addons.xpi	DEBUG	Existing add-on formautofill@mozilla.org in app-system-defaults
-1563902211554	addons.xpi	DEBUG	Existing add-on fxmonitor@mozilla.org in app-system-defaults
-1563902211555	addons.xpi	DEBUG	Existing add-on screenshots@mozilla.org in app-system-defaults
-1563902211555	addons.xpi	DEBUG	Existing add-on webcompat-reporter@mozilla.org in app-system-defaults
-1563902211556	addons.xpi	DEBUG	Existing add-on webcompat@mozilla.org in app-system-defaults
-1563902211557	addons.xpi	DEBUG	scanForChanges changed: false, state: {}
-1563902211558	addons.xpi	DEBUG	No changes found
-1563902211567	addons.xpi	DEBUG	Loading bootstrap scope from jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/formautofill@mozilla.org.xpi!/
-1563902211583	addons.xpi	DEBUG	Calling bootstrap method startup on formautofill@mozilla.org version 1.0
-1563902211586	addons.xpi	DEBUG	Loading bootstrap scope from jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/fxmonitor@mozilla.org.xpi!/
-1563902211586	addons.xpi	DEBUG	Calling bootstrap method startup on fxmonitor@mozilla.org version 3.0
-1563902211587	addons.xpi	DEBUG	Loading bootstrap scope from jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/screenshots@mozilla.org.xpi!/
-1563902211587	addons.xpi	DEBUG	Calling bootstrap method startup on screenshots@mozilla.org version 37.1.0
-1563902211588	addons.xpi	DEBUG	Loading bootstrap scope from jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/webcompat@mozilla.org.xpi!/
-1563902211588	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 4.0.0
-1563902211591	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
-1563902211591	addons.manager	DEBUG	Provider finished startup: XPIProvider
-1563902211591	addons.manager	DEBUG	Starting provider: LightweightThemeManager
-1563902211591	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
-1563902211591	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
-1563902211592	addons.manager	DEBUG	Starting provider: GMPProvider
-1563902211596	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
-1563902211596	addons.manager	DEBUG	Provider finished startup: GMPProvider
-1563902211596	addons.manager	DEBUG	Starting provider: PluginProvider
-1563902211596	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
-1563902211596	addons.manager	DEBUG	Provider finished startup: PluginProvider
-1563902211609	addons.manager	DEBUG	Completed startup sequence
-*** Blocklist::_loadFileInternal: blocklist is disabled
-1563902213449	addons.xpi-utils	DEBUG	Starting async load of XPI database C:\Users\abhchauh0\AppData\Local\Temp\anonymous2892427950168710642webdriver-profile\extensions.json
-1563902213498	addons.xpi	DEBUG	Ignoring file: name is not a valid add-on ID: C:\Users\abhchauh0\AppData\Local\Temp\anonymous2892427950168710642webdriver-profile\extensions\webdriver-staging
-1563902213500	addons.xpi	DEBUG	Existing add-on formautofill@mozilla.org in app-system-defaults
-1563902213501	addons.xpi	DEBUG	Existing add-on fxmonitor@mozilla.org in app-system-defaults
-1563902213501	addons.xpi	DEBUG	Existing add-on screenshots@mozilla.org in app-system-defaults
-1563902213501	addons.xpi	DEBUG	Existing add-on webcompat-reporter@mozilla.org in app-system-defaults
-1563902213501	addons.xpi	DEBUG	Existing add-on webcompat@mozilla.org in app-system-defaults
-1563902213502	addons.xpi	DEBUG	scanForChanges changed: false, state: {}
-1563902213709	addons.xpi-utils	DEBUG	Finished async read of XPI database, parsing...
-1563902214021	addons.xpi-utils	DEBUG	Successfully read XPI database
-1563902214631	addons.manager	DEBUG	Registering upgrade listener for formautofill@mozilla.org
-
-Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
-System info: host: 'WKWIN3778446', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
-Driver info: driver.version: FirefoxDriver
-	at testng.NewTest.beforeTest(NewTest.java:19)
-Caused by: org.openqa.selenium.firefox.NotConnectedException: 
-Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
-[[]],"onMessage":[[]]}}}}},"staged":{},"path":"C:\\Program Files\\Mozilla Firefox\\browser\\features"}}
-1563902211552	addons.xpi	DEBUG	Ignoring file: name is not a valid add-on ID: C:\Users\abhchauh0\AppData\Local\Temp\anonymous2892427950168710642webdriver-profile\extensions\webdriver-staging
-1563902211554	addons.xpi	DEBUG	Existing add-on formautofill@mozilla.org in app-system-defaults
-1563902211554	addons.xpi	DEBUG	Existing add-on fxmonitor@mozilla.org in app-system-defaults
-1563902211555	addons.xpi	DEBUG	Existing add-on screenshots@mozilla.org in app-system-defaults
-1563902211555	addons.xpi	DEBUG	Existing add-on webcompat-reporter@mozilla.org in app-system-defaults
-1563902211556	addons.xpi	DEBUG	Existing add-on webcompat@mozilla.org in app-system-defaults
-1563902211557	addons.xpi	DEBUG	scanForChanges changed: false, state: {}
-1563902211558	addons.xpi	DEBUG	No changes found
-1563902211567	addons.xpi	DEBUG	Loading bootstrap scope from jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/formautofill@mozilla.org.xpi!/
-1563902211583	addons.xpi	DEBUG	Calling bootstrap method startup on formautofill@mozilla.org version 1.0
-1563902211586	addons.xpi	DEBUG	Loading bootstrap scope from jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/fxmonitor@mozilla.org.xpi!/
-1563902211586	addons.xpi	DEBUG	Calling bootstrap method startup on fxmonitor@mozilla.org version 3.0
-1563902211587	addons.xpi	DEBUG	Loading bootstrap scope from jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/screenshots@mozilla.org.xpi!/
-1563902211587	addons.xpi	DEBUG	Calling bootstrap method startup on screenshots@mozilla.org version 37.1.0
-1563902211588	addons.xpi	DEBUG	Loading bootstrap scope from jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/webcompat@mozilla.org.xpi!/
-1563902211588	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 4.0.0
-1563902211591	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
-1563902211591	addons.manager	DEBUG	Provider finished startup: XPIProvider
-1563902211591	addons.manager	DEBUG	Starting provider: LightweightThemeManager
-1563902211591	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
-1563902211591	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
-1563902211592	addons.manager	DEBUG	Starting provider: GMPProvider
-1563902211596	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
-1563902211596	addons.manager	DEBUG	Provider finished startup: GMPProvider
-1563902211596	addons.manager	DEBUG	Starting provider: PluginProvider
-1563902211596	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
-1563902211596	addons.manager	DEBUG	Provider finished startup: PluginProvider
-1563902211609	addons.manager	DEBUG	Completed startup sequence
-*** Blocklist::_loadFileInternal: blocklist is disabled
-1563902213449	addons.xpi-utils	DEBUG	Starting async load of XPI database C:\Users\abhchauh0\AppData\Local\Temp\anonymous2892427950168710642webdriver-profile\extensions.json
-1563902213498	addons.xpi	DEBUG	Ignoring file: name is not a valid add-on ID: C:\Users\abhchauh0\AppData\Local\Temp\anonymous2892427950168710642webdriver-profile\extensions\webdriver-staging
-1563902213500	addons.xpi	DEBUG	Existing add-on formautofill@mozilla.org in app-system-defaults
-1563902213501	addons.xpi	DEBUG	Existing add-on fxmonitor@mozilla.org in app-system-defaults
-1563902213501	addons.xpi	DEBUG	Existing add-on screenshots@mozilla.org in app-system-defaults
-1563902213501	addons.xpi	DEBUG	Existing add-on webcompat-reporter@mozilla.org in app-system-defaults
-1563902213501	addons.xpi	DEBUG	Existing add-on webcompat@mozilla.org in app-system-defaults
-1563902213502	addons.xpi	DEBUG	scanForChanges changed: false, state: {}
-1563902213709	addons.xpi-utils	DEBUG	Finished async read of XPI database, parsing...
-1563902214021	addons.xpi-utils	DEBUG	Successfully read XPI database
-1563902214631	addons.manager	DEBUG	Registering upgrade listener for formautofill@mozilla.org
-
-	at testng.NewTest.beforeTest(NewTest.java:19)
-</failure>
-    <system-err><![CDATA[org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
-[[]],"onMessage":[[]]}}}}},"staged":{},"path":"C:\\Program Files\\Mozilla Firefox\\browser\\features"}}
-1563902211552	addons.xpi	DEBUG	Ignoring file: name is not a valid add-on ID: C:\Users\abhchauh0\AppData\Local\Temp\anonymous2892427950168710642webdriver-profile\extensions\webdriver-staging
-1563902211554	addons.xpi	DEBUG	Existing add-on formautofill@mozilla.org in app-system-defaults
-1563902211554	addons.xpi	DEBUG	Existing add-on fxmonitor@mozilla.org in app-system-defaults
-1563902211555	addons.xpi	DEBUG	Existing add-on screenshots@mozilla.org in app-system-defaults
-1563902211555	addons.xpi	DEBUG	Existing add-on webcompat-reporter@mozilla.org in app-system-defaults
-1563902211556	addons.xpi	DEBUG	Existing add-on webcompat@mozilla.org in app-system-defaults
-1563902211557	addons.xpi	DEBUG	scanForChanges changed: false, state: {}
-1563902211558	addons.xpi	DEBUG	No changes found
-1563902211567	addons.xpi	DEBUG	Loading bootstrap scope from jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/formautofill@mozilla.org.xpi!/
-1563902211583	addons.xpi	DEBUG	Calling bootstrap method startup on formautofill@mozilla.org version 1.0
-1563902211586	addons.xpi	DEBUG	Loading bootstrap scope from jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/fxmonitor@mozilla.org.xpi!/
-1563902211586	addons.xpi	DEBUG	Calling bootstrap method startup on fxmonitor@mozilla.org version 3.0
-1563902211587	addons.xpi	DEBUG	Loading bootstrap scope from jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/screenshots@mozilla.org.xpi!/
-1563902211587	addons.xpi	DEBUG	Calling bootstrap method startup on screenshots@mozilla.org version 37.1.0
-1563902211588	addons.xpi	DEBUG	Loading bootstrap scope from jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/webcompat@mozilla.org.xpi!/
-1563902211588	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 4.0.0
-1563902211591	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
-1563902211591	addons.manager	DEBUG	Provider finished startup: XPIProvider
-1563902211591	addons.manager	DEBUG	Starting provider: LightweightThemeManager
-1563902211591	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
-1563902211591	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
-1563902211592	addons.manager	DEBUG	Starting provider: GMPProvider
-1563902211596	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
-1563902211596	addons.manager	DEBUG	Provider finished startup: GMPProvider
-1563902211596	addons.manager	DEBUG	Starting provider: PluginProvider
-1563902211596	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
-1563902211596	addons.manager	DEBUG	Provider finished startup: PluginProvider
-1563902211609	addons.manager	DEBUG	Completed startup sequence
-*** Blocklist::_loadFileInternal: blocklist is disabled
-1563902213449	addons.xpi-utils	DEBUG	Starting async load of XPI database C:\Users\abhchauh0\AppData\Local\Temp\anonymous2892427950168710642webdriver-profile\extensions.json
-1563902213498	addons.xpi	DEBUG	Ignoring file: name is not a valid add-on ID: C:\Users\abhchauh0\AppData\Local\Temp\anonymous2892427950168710642webdriver-profile\extensions\webdriver-staging
-1563902213500	addons.xpi	DEBUG	Existing add-on formautofill@mozilla.org in app-system-defaults
-1563902213501	addons.xpi	DEBUG	Existing add-on fxmonitor@mozilla.org in app-system-defaults
-1563902213501	addons.xpi	DEBUG	Existing add-on screenshots@mozilla.org in app-system-defaults
-1563902213501	addons.xpi	DEBUG	Existing add-on webcompat-reporter@mozilla.org in app-system-defaults
-1563902213501	addons.xpi	DEBUG	Existing add-on webcompat@mozilla.org in app-system-defaults
-1563902213502	addons.xpi	DEBUG	scanForChanges changed: false, state: {}
-1563902213709	addons.xpi-utils	DEBUG	Finished async read of XPI database, parsing...
-1563902214021	addons.xpi-utils	DEBUG	Successfully read XPI database
-1563902214631	addons.manager	DEBUG	Registering upgrade listener for formautofill@mozilla.org
-
-	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:118)
-	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:246)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:114)
-	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:191)
-	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:186)
-	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:182)
-	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:95)
-	at testng.NewTest.beforeTest(NewTest.java:19)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:641)
-	at org.testng.TestRunner.run(TestRunner.java:609)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
-]]></system-err>
-  </testcase>
-  <testcase name="testEasy" classname="testng.NewTest" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="afterTest" classname="testng.NewTest" time="0">
-    <skipped/>
-  </testcase>
+  <testcase name="testEasy" classname="testng.NewTest" time="6.526"/>
 </testsuite>
