@@ -27,7 +27,8 @@ public class NewTest {
         FirefoxProfile firefoxProfile = new FirefoxProfile();
         driver = new FirefoxDriver(firefoxBinary, firefoxProfile);*/
 
-        System.setProperty("webdriver.gecko.driver","C:\\Users\\abhchauh0\\Downloads\\geckodriver-v0.24.0-win64\\geckodriver.exe");
+        //System.setProperty("webdriver.gecko.driver","C:\\Users\\abhchauh0\\Downloads\\geckodriver-v0.24.0-win64\\geckodriver.exe");
+        System.setProperty("webdriver.gecko.driver","geckodriver.exe");
         DesiredCapabilities capabilities = DesiredCapabilities.firefox();
         capabilities.setCapability("marionette",true);
         driver= new FirefoxDriver(capabilities);

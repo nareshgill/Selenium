@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: testng.NewTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 19.032 s - in testng.NewTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 19.535 s - in testng.NewTest
